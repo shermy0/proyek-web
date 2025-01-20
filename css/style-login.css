@@ -1,0 +1,77 @@
+body {
+    background: url('../images/hero_2.jpg') no-repeat center center fixed;
+    background-size: cover;  
+    font-family: 'Poppins', sans-serif;
+    color: #e6edf3; /* Light text color */
+  }
+
+  .login-box {
+    max-width: 400px;
+    margin: 80px auto;
+    background: #161b22; /* Slightly lighter dark background for card */
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+
+  .card-header {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #58a6ff; /* Bright blue for title */
+    border-bottom: 1px solid #96adcd;
+  }
+
+  .login-box-msg {
+    font-size: 16px;
+    margin: 15px 0 25px;
+    text-align: center;
+  }
+
+  .form-control {
+    background-color: #21262d;
+    border: 1px solid #30363d;
+    color: #e6edf3;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .form-control:focus {
+    background-color: #1c2128;
+    border-color: #58a6ff;
+    box-shadow: none;
+  }
+
+  .input-group-text {
+    background-color: #21262d;
+    border: 1px solid #30363d;
+    color: #8b949e;
+  }
+
+  .btn-primary {
+    background-color: #238636;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: all 0.3s;
+  }
+
+  .btn-primary:hover {
+    background-color: #2ea043;
+  }
+
+  a.text-primary {
+    color: #58a6ff;
+    text-decoration: none;
+  }
+
+  a.text-primary:hover {
+    text-decoration: underline;
+  }
+
+  .register-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
